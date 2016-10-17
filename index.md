@@ -24,14 +24,16 @@ ul.nav li::before { content: ""; }
 ul.nav li{ font-size: 18px; line-height: 24px;}
 </style>
 
+## Outline
+
 >- 1. Polls could be inaccurate, so what?
    - Cases of inaccurate polls... abundant!
    - Why does accuracy matter?
->- 2. Research questions and hypotheses
-   - Defining accuracy: errors and biases 
-   - Literature on the effects of poll characteristics on accuracy
+>- 2. Literature and hypotheses
+   - Literature on the effects of on accuracy
 >- 3. Methods
-   - Data collection: 2 major rounds
+   - Variables
+   - Data collection: 2 major stages
    - Analyses
    - Results
 >- 4. Discussion 
@@ -39,122 +41,98 @@ ul.nav li{ font-size: 18px; line-height: 24px;}
 --- #SoWhat1
 
 ## Inaccurate polls... so what?
-### Just a few cases...
+### Just a couple of cases...
 
->- 1. NYT: *How One 19-Year-Old Illinois Man Is Distorting National Polling Averages*
-   - We already know that the elites/activists are polarized!
-   - Does increased selectivity among news consumers reflect increased level of interparty animus?
->- 2. 
+>- 1. Polls on referendum: The Brexit Case, fewer than a third of the 168 polls predicted a leave vote
+   - CNBC: The inaccurate Brexit prediction is just one of multiple misses over recent years, including last year's U.K. general election, the Scottish referendum in 2014...
+   - Chris Hanretty (Monkey Cage): "vote for the status quo" effect is smaller in close referenda
+   - Nate Cohn (The Upshot): referendum polls are often less accurate than general election polls, large numbers of undecided voters
+   - Anthony Wells (YouGov): hard-to-reach voters (3 vs. 6 days), under-educated people are under-represented, inaccurate attitude weights, reallocation of "don't knows".
 
->- 3. 
+--- #SoWhat2
 
---- #Why2
+## Inaccurate polls... so what?
+![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1-1.png)
+>- 2. NYT: *How One 19-Year-Old Illinois Man Is Distorting National Polling Averages*
+   - Overweighted (sub-)sample and the use of past vote 
+   - Weighting over too many categories leads to overcounting
+   - Weighting based on past vote, which is very inaccurate
 
-## The "So What" Question
+--- #SoWhat3
 
-So **why** should we care about answering these questions?
+## Inaccurate polls... so what?
 
->- 3. What are the implications of an increasingly polarized news audience?
-   - How does a polarized audience affect the media industry and its way of exercising journalism?
-   - How does a polarized audience affect elite behavior and political campaigns?
+So **why** should we care about inaccurate polls?
 
---- #RQ
+>- 1. Predictable electoral outcomes is key to political and economic stability
+   - Business Insider: When elections are predictable, it helps society — investors, job seekers, employers, and retirees — plan for the future. The EU Referendum caused the pound and the FTSE 100 to both immediately collapse because no one was expecting Leave to win.
+>- 2. Polls provide feedback to candidates and elected officials
+   - Altering positions and policies to accomodate what people want
+>- 3. Polls could affect actual election results
+   - Donation vs. poll predictions
 
+--- #Lit1
 
+## Literature and hypotheses
+### Mode and Accuracy
+>- 1. Chang and Krosnick (2009): Internet data collection from a probability sample yields more accurate results than telephone interviewing and Internet data collection from nonprobability samples.
+>- 2. Yeager et al. (2011): mode effects (telephone vs. internet and probability vs. non-probability) on accuracy.
 
-## Research Questions
+### Sample size
+>- 1. Lohr (2010): The relationship between sample size and the margin of error of a survey is curvilinear.
 
->- 1. Are consumers of online news exercising selectivity in their news choices?
-   - The partisan polarization hypothesis: active selectivity and motivated exposure
-   - How strong is the tendency of the partisans to self-select into distinct audiences?
->- 2. Does the news content matter?
-   - Hard vs. soft news
-   - Is the effect of selectivity stronger for subjects where partisan divisions are intense?
->- 3. Doe attentiveness matter?
-   - The more attentive vs. the less attentive and the partisans vs. the nonpartisans
-   - Political interest$*$partisanship
-   
---- #Literature
+--- #Lit2
 
-## What is already known in the literature?
+## Literature and hypotheses
+### Office of the Election
+>- 1. Pasek et al. (2014): The primacy effect of informed decision based on non-arbitrary factors
 
->- 1. Gunther et al. (2001), Congenial public, contrary press, and biased estimates of the climate of opinion
-   - The "hostile media" phenomenon: demonstrates selectivity in news choices
-   - People who are highly involved in an issue tend to see news coverage of that issue as biased
->- 2. Pfau et al. (2007), Mediating the vote: The changing media landscape in US presidential campaigns
-   - Provided evidence of differential media use among partisans during the 2000 and 2004 campaigns
->- 3. Gentzkow & Shapiro (2006),  Media bias and reputation
-   - Consumers infer the quality of a information source based on the conformity between what the source reports and their expectations.
-   - Bayesian model of media bias that makes predictions consistent with empirical evidence
+### Election year
+>- 1. Silver and Krosnick (2014): Polls on referenda during presidential election years are less accurate
 
---- #Hypotheses
-
-## Hypotheses
+### Partisanship
+>- 1. Franklin (2014): Polls conducted by partisan sources overestimate support for the candidate they support
 
 --- #Methods1
 
 ## Methods
-### Data Collection
+### Main Variables
+>- 1. Dependent variables: Average absolute error, Margin of victory error, Partisan bias
+   - Average absolute error: Average of the Republican and Democrat absolute errors
+   - Margin of victory error: Margin of victory error between the poll and the actual election outcome
+   - Partisan bias: aggregate count of partisanship of the firms involved
+>- 2. Independent variables: Average number of days between poll and actual elections, Duration of the poll, Sample size, Registered vs. likely voters, Election year, Major national news media organization, Election type, Mode of poll
 
 --- #Methods2
 
 ## Methods
-### Analyses
-
+### Data Collection
+>-1. Stage 1: Based on data from aggregate polling sites, collected the above main variables and other related poll and election characteristics. Sources include: FiveThirtyEight, Real Clear Politics, Pollster.com, FEC, and Secretary of State.
+>-2. Stage 2: In addition to the macro-partisan variable (3-level factor) collected in stage 1, collected micro-level partisan variable such that each of the firms involved was evaluated.
+   - Firm's role in the poll (designer, collector, sponsor, and publisher) based on online information and case studies.
+   - Partisanship based on firms' websites, donation records, and case studies.
 
 
 --- #Results1
 
 ## Results
-### Overall effects of news labels
-
->- 1. News source labels are an important cue for readers: consumers tend to ignore stories without labels
->- 2. Fox label has the strongest impact on story selection: its strategy works
+### Descriptive Analyses
+![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png)
 
 --- #Results2
 
 ## Results
-### Evidence of selective exposure in news selection
-
-```
-## Error in readPNG("figure/fig1.png"): unable to open figure/fig1.png
-```
-
-```
-## Error in rasterGrob(image, x = x, y = y, width = width, height = height, : object 'img' not found
-```
-#### Figure 1 Effects of story label on story selection
+### Statistical Analyses
+![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-1.png)
 
 --- #Results3
 
 ## Results
-### Evidence of selective exposure in news selection
->- 1. Story-level descriptive analysis
-   - The effects of labels depend on the subject matters
-   - The effects of labels are stronger for the Republicans
->- 2. Individual-level analysis
-   - Fox$*$IDE (self-reported political ideology) is positive across almost all subject matters
-   - This suggests that Fox label attracted a large number of conservatives
-   - Results of Wald tests shows that the differences between Fox and the second-most selected source are significant for conservatives
-   - Ideological divide is apparent even for the soft news
+### Statistical Analyses
+![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4-1.png)
 
 --- #Results4
 
 ## Results
-### Are more involved partisans more selective?
->- 1. Three-way interaction terms: source$*$ IDE $*$PI (political interest)
-   - Only the interaction terms for two of the hard news subjects are significant
-   - Partial support for the "greater polarization among activists" hypothesis
-
----
-
-## Conclusion
-
->- 1. Fox News is the dominant news source for conservatives at the story- and individual- levels
->- 2. Subject matter matters: hard news strengthens selection while exposure to soft news also reveals polarization
->- 3. Implications
-   - 1. Polarization among the audience leads to baised news content under the market model
-   - 2. Selective exposure may further reinforce existing beliefs and attitudes: the echo chamber effect
-   - 3. As the technological advancement further enables customization of the media environment, the effect of selective exposure also grows
-   
-
+### Statistical Analyses
+![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png)

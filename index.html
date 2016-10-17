@@ -60,6 +60,8 @@ ul.nav li::before { content: ""; }
 ul.nav li{ font-size: 18px; line-height: 24px;}
 </style>
 
+<h2>Outline</h2>
+
 <ul class = "build incremental">
 <li>1. Polls could be inaccurate, so what?
 
@@ -67,16 +69,16 @@ ul.nav li{ font-size: 18px; line-height: 24px;}
 <li>Cases of inaccurate polls... abundant!</li>
 <li>Why does accuracy matter?</li>
 </ul></li>
-<li>2. Research questions and hypotheses
+<li>2. Literature and hypotheses
 
 <ul>
-<li>Defining accuracy: errors and biases </li>
-<li>Literature on the effects of poll characteristics on accuracy</li>
+<li>Literature on the effects of on accuracy</li>
 </ul></li>
 <li>3. Methods
 
 <ul>
-<li>Data collection: 2 major rounds</li>
+<li>Variables</li>
+<li>Data collection: 2 major stages</li>
 <li>Analyses</li>
 <li>Results</li>
 </ul></li>
@@ -92,40 +94,16 @@ ul.nav li{ font-size: 18px; line-height: 24px;}
     <h2>Inaccurate polls... so what?</h2>
   </hgroup>
   <article data-timings="">
-    <h3>Just a few cases...</h3>
+    <h3>Just a couple of cases...</h3>
 
 <ul class = "build incremental">
-<li>1. NYT: <em>How One 19-Year-Old Illinois Man Is Distorting National Polling Averages</em>
+<li>1. Polls on referendum: The Brexit Case, fewer than a third of the 168 polls predicted a leave vote
 
 <ul>
-<li>We already know that the elites/activists are polarized!</li>
-<li>Does increased selectivity among news consumers reflect increased level of interparty animus?</li>
-</ul></li>
-<li><ol>
-<li></li>
-</ol></li>
-<li><ol>
-<li></li>
-</ol></li>
-</ul>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="Why2" style="background:;">
-  <hgroup>
-    <h2>The &quot;So What&quot; Question</h2>
-  </hgroup>
-  <article data-timings="">
-    <p>So <strong>why</strong> should we care about answering these questions?</p>
-
-<ul class = "build incremental">
-<li>3. What are the implications of an increasingly polarized news audience?
-
-<ul>
-<li>How does a polarized audience affect the media industry and its way of exercising journalism?</li>
-<li>How does a polarized audience affect elite behavior and political campaigns?</li>
+<li>CNBC: The inaccurate Brexit prediction is just one of multiple misses over recent years, including last year&#39;s U.K. general election, the Scottish referendum in 2014...</li>
+<li>Chris Hanretty (Monkey Cage): &quot;vote for the status quo&quot; effect is smaller in close referenda</li>
+<li>Nate Cohn (The Upshot): referendum polls are often less accurate than general election polls, large numbers of undecided voters</li>
+<li>Anthony Wells (YouGov): hard-to-reach voters (3 vs. 6 days), under-educated people are under-represented, inaccurate attitude weights, reallocation of &quot;don&#39;t knows&quot;.</li>
 </ul></li>
 </ul>
 
@@ -133,53 +111,20 @@ ul.nav li{ font-size: 18px; line-height: 24px;}
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="RQ" style="background:;">
+<slide class="" id="SoWhat2" style="background:;">
   <hgroup>
-    <h2>Research Questions</h2>
+    <h2>Inaccurate polls... so what?</h2>
   </hgroup>
   <article data-timings="">
-    <ul class = "build incremental">
-<li>1. Are consumers of online news exercising selectivity in their news choices?
-
-<ul>
-<li>The partisan polarization hypothesis: active selectivity and motivated exposure</li>
-<li>How strong is the tendency of the partisans to self-select into distinct audiences?</li>
-</ul></li>
-<li>2. Does the news content matter?
-
-<ul>
-<li>Hard vs. soft news</li>
-<li>Is the effect of selectivity stronger for subjects where partisan divisions are intense?</li>
-</ul></li>
-<li>3. Doe attentiveness matter?
-
-<ul>
-<li>The more attentive vs. the less attentive and the partisans vs. the nonpartisans</li>
-<li>Political interest$*$partisanship</li>
-</ul></li>
-</ul>
-
-<p>--- #Literature</p>
-
-<h2>What is already known in the literature?</h2>
+    <p><img src="figure/unnamed-chunk-1-1.png" alt="plot of chunk unnamed-chunk-1"></p>
 
 <ul class = "build incremental">
-<li>1. Gunther et al. (2001), Congenial public, contrary press, and biased estimates of the climate of opinion
+<li>2. NYT: <em>How One 19-Year-Old Illinois Man Is Distorting National Polling Averages</em>
 
 <ul>
-<li>The &quot;hostile media&quot; phenomenon: demonstrates selectivity in news choices</li>
-<li>People who are highly involved in an issue tend to see news coverage of that issue as biased</li>
-</ul></li>
-<li>2. Pfau et al. (2007), Mediating the vote: The changing media landscape in US presidential campaigns
-
-<ul>
-<li>Provided evidence of differential media use among partisans during the 2000 and 2004 campaigns</li>
-</ul></li>
-<li>3. Gentzkow &amp; Shapiro (2006),  Media bias and reputation
-
-<ul>
-<li>Consumers infer the quality of a information source based on the conformity between what the source reports and their expectations.</li>
-<li>Bayesian model of media bias that makes predictions consistent with empirical evidence</li>
+<li>Overweighted (sub-)sample and the use of past vote </li>
+<li>Weighting over too many categories leads to overcounting</li>
+<li>Weighting based on past vote, which is very inaccurate</li>
 </ul></li>
 </ul>
 
@@ -187,12 +132,80 @@ ul.nav li{ font-size: 18px; line-height: 24px;}
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="Hypotheses" style="background:;">
+<slide class="" id="SoWhat3" style="background:;">
   <hgroup>
-    <h2>Hypotheses</h2>
+    <h2>Inaccurate polls... so what?</h2>
   </hgroup>
   <article data-timings="">
-    
+    <p>So <strong>why</strong> should we care about inaccurate polls?</p>
+
+<ul class = "build incremental">
+<li>1. Predictable electoral outcomes is key to political and economic stability
+
+<ul>
+<li>Business Insider: When elections are predictable, it helps society — investors, job seekers, employers, and retirees — plan for the future. The EU Referendum caused the pound and the FTSE 100 to both immediately collapse because no one was expecting Leave to win.</li>
+</ul></li>
+<li>2. Polls provide feedback to candidates and elected officials
+
+<ul>
+<li>Altering positions and policies to accomodate what people want</li>
+</ul></li>
+<li>3. Polls could affect actual election results
+
+<ul>
+<li>Donation vs. poll predictions</li>
+</ul></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="Lit1" style="background:;">
+  <hgroup>
+    <h2>Literature and hypotheses</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>Mode and Accuracy</h3>
+
+<ul class = "build incremental">
+<li>1. Chang and Krosnick (2009): Internet data collection from a probability sample yields more accurate results than telephone interviewing and Internet data collection from nonprobability samples.</li>
+<li>2. Yeager et al. (2011): mode effects (telephone vs. internet and probability vs. non-probability) on accuracy.</li>
+</ul>
+
+<h3>Sample size</h3>
+
+<ul class = "build incremental">
+<li>1. Lohr (2010): The relationship between sample size and the margin of error of a survey is curvilinear.</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="Lit2" style="background:;">
+  <hgroup>
+    <h2>Literature and hypotheses</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>Office of the Election</h3>
+
+<ul class = "build incremental">
+<li>1. Pasek et al. (2014): The primacy effect of informed decision based on non-arbitrary factors</li>
+</ul>
+
+<h3>Election year</h3>
+
+<ul class = "build incremental">
+<li>1. Silver and Krosnick (2014): Polls on referenda during presidential election years are less accurate</li>
+</ul>
+
+<h3>Partisanship</h3>
+
+<ul class = "build incremental">
+<li>1. Franklin (2014): Polls conducted by partisan sources overestimate support for the candidate they support</li>
+</ul>
+
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -202,7 +215,18 @@ ul.nav li{ font-size: 18px; line-height: 24px;}
     <h2>Methods</h2>
   </hgroup>
   <article data-timings="">
-    <h3>Data Collection</h3>
+    <h3>Main Variables</h3>
+
+<ul class = "build incremental">
+<li>1. Dependent variables: Average absolute error, Margin of victory error, Partisan bias
+
+<ul>
+<li>Average absolute error: Average of the Republican and Democrat absolute errors</li>
+<li>Margin of victory error: Margin of victory error between the poll and the actual election outcome</li>
+<li>Partisan bias: aggregate count of partisanship of the firms involved</li>
+</ul></li>
+<li>2. Independent variables: Average number of days between poll and actual elections, Duration of the poll, Sample size, Registered vs. likely voters, Election year, Major national news media organization, Election type, Mode of poll</li>
+</ul>
 
   </article>
   <!-- Presenter Notes -->
@@ -213,7 +237,16 @@ ul.nav li{ font-size: 18px; line-height: 24px;}
     <h2>Methods</h2>
   </hgroup>
   <article data-timings="">
-    <h3>Analyses</h3>
+    <h3>Data Collection</h3>
+
+<blockquote>
+<p>-1. Stage 1: Based on data from aggregate polling sites, collected the above main variables and other related poll and election characteristics. Sources include: FiveThirtyEight, Real Clear Politics, Pollster.com, FEC, and Secretary of State.
+-2. Stage 2: In addition to the macro-partisan variable (3-level factor) collected in stage 1, collected micro-level partisan variable such that each of the firms involved was evaluated.</p>
+
+<ul>
+<li>Firm&#39;s role in the poll (designer, collector, sponsor, and publisher) based on online information and case studies.</li>
+<li>Partisanship based on firms&#39; websites, donation records, and case studies.</li>
+</ul>
 
   </article>
   <!-- Presenter Notes -->
@@ -224,12 +257,9 @@ ul.nav li{ font-size: 18px; line-height: 24px;}
     <h2>Results</h2>
   </hgroup>
   <article data-timings="">
-    <h3>Overall effects of news labels</h3>
+    <h3>Descriptive Analyses</h3>
 
-<ul class = "build incremental">
-<li>1. News source labels are an important cue for readers: consumers tend to ignore stories without labels</li>
-<li>2. Fox label has the strongest impact on story selection: its strategy works</li>
-</ul>
+<p><img src="figure/unnamed-chunk-2-1.png" alt="plot of chunk unnamed-chunk-2"></p>
 
   </article>
   <!-- Presenter Notes -->
@@ -240,15 +270,9 @@ ul.nav li{ font-size: 18px; line-height: 24px;}
     <h2>Results</h2>
   </hgroup>
   <article data-timings="">
-    <h3>Evidence of selective exposure in news selection</h3>
+    <h3>Statistical Analyses</h3>
 
-<pre><code>## Error in readPNG(&quot;figure/fig1.png&quot;): unable to open figure/fig1.png
-</code></pre>
-
-<pre><code>## Error in rasterGrob(image, x = x, y = y, width = width, height = height, : object &#39;img&#39; not found
-</code></pre>
-
-<h4>Figure 1 Effects of story label on story selection</h4>
+<p><img src="figure/unnamed-chunk-3-1.png" alt="plot of chunk unnamed-chunk-3"></p>
 
   </article>
   <!-- Presenter Notes -->
@@ -259,24 +283,9 @@ ul.nav li{ font-size: 18px; line-height: 24px;}
     <h2>Results</h2>
   </hgroup>
   <article data-timings="">
-    <h3>Evidence of selective exposure in news selection</h3>
+    <h3>Statistical Analyses</h3>
 
-<ul class = "build incremental">
-<li>1. Story-level descriptive analysis
-
-<ul>
-<li>The effects of labels depend on the subject matters</li>
-<li>The effects of labels are stronger for the Republicans</li>
-</ul></li>
-<li>2. Individual-level analysis
-
-<ul>
-<li>Fox$*$IDE (self-reported political ideology) is positive across almost all subject matters</li>
-<li>This suggests that Fox label attracted a large number of conservatives</li>
-<li>Results of Wald tests shows that the differences between Fox and the second-most selected source are significant for conservatives</li>
-<li>Ideological divide is apparent even for the soft news</li>
-</ul></li>
-</ul>
+<p><img src="figure/unnamed-chunk-4-1.png" alt="plot of chunk unnamed-chunk-4"></p>
 
   </article>
   <!-- Presenter Notes -->
@@ -287,37 +296,9 @@ ul.nav li{ font-size: 18px; line-height: 24px;}
     <h2>Results</h2>
   </hgroup>
   <article data-timings="">
-    <h3>Are more involved partisans more selective?</h3>
+    <h3>Statistical Analyses</h3>
 
-<ul class = "build incremental">
-<li>1. Three-way interaction terms: source\(*\) IDE $*$PI (political interest)
-
-<ul>
-<li>Only the interaction terms for two of the hard news subjects are significant</li>
-<li>Partial support for the &quot;greater polarization among activists&quot; hypothesis</li>
-</ul></li>
-</ul>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-12" style="background:;">
-  <hgroup>
-    <h2>Conclusion</h2>
-  </hgroup>
-  <article data-timings="">
-    <ul class = "build incremental">
-<li>1. Fox News is the dominant news source for conservatives at the story- and individual- levels</li>
-<li>2. Subject matter matters: hard news strengthens selection while exposure to soft news also reveals polarization</li>
-<li>3. Implications
-
-<ul>
-<li>1. Polarization among the audience leads to baised news content under the market model</li>
-<li>2. Selective exposure may further reinforce existing beliefs and attitudes: the echo chamber effect</li>
-<li>3. As the technological advancement further enables customization of the media environment, the effect of selective exposure also grows</li>
-</ul></li>
-</ul>
+<p><img src="figure/unnamed-chunk-5-1.png" alt="plot of chunk unnamed-chunk-5"></p>
 
   </article>
   <!-- Presenter Notes -->
@@ -341,25 +322,25 @@ ul.nav li{ font-size: 18px; line-height: 24px;}
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='The &quot;So What&quot; Question'>
+        data-slide=3 title='Inaccurate polls... so what?'>
          3
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=4 title='Research Questions'>
+        data-slide=4 title='Inaccurate polls... so what?'>
          4
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=5 title='Hypotheses'>
+        data-slide=5 title='Literature and hypotheses'>
          5
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=6 title='Methods'>
+        data-slide=6 title='Literature and hypotheses'>
          6
       </a>
     </li>
@@ -371,7 +352,7 @@ ul.nav li{ font-size: 18px; line-height: 24px;}
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=8 title='Results'>
+        data-slide=8 title='Methods'>
          8
       </a>
     </li>
@@ -395,7 +376,7 @@ ul.nav li{ font-size: 18px; line-height: 24px;}
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=12 title='Conclusion'>
+        data-slide=12 title='Results'>
          12
       </a>
     </li>
