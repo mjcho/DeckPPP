@@ -78,40 +78,21 @@ So **why** should we care about answering these questions?
    - Consumers infer the quality of a information source based on the conformity between what the source reports and their expectations.
    - Bayesian model of media bias that makes predictions consistent with empirical evidence
 
---- {class: class, tpl: tabs}
+--- #Hypotheses
 
-## Method
+## Hypotheses
 
-*** {class: active, id: Design}
+--- #Methods1
 
-- 1. Online experiment
-- 2. 4 source labels (Fox, NPR, CNN, and BBC) with a "Can't say" option
-- 3. 6 subject matters (Politics, Race relations, Iraq, Sports, Crime, and Travel) across two dimensions (hard and soft)
-- 4. Control condition in which all source labels were deleted
+## Methods
+### Data Collection
 
-*** {id: Sample}
+--- #Methods2
 
-- 1. Nationally representative sample of 1023 registered voters from Polimetrix
-- 2. Matched sample from an opt-in panel
+## Methods
+### Analyses
 
-*** {id: Hypotheses}
 
-- 1. Source label
-   - Fox News labeled storues will have higher demand from Republicans and the conservatives
-   - CNN and NPR labeled stories will have higher demand from the Democrats
-   - Uniform indifference for BBC labeled stories
-- 2. Stronger effects of source manipulation for hard news
-- 3. Stronger effects of source manipulation for the attentive partisans as opposed to less attentive partisans and nonpartisans
-
-*** {id: Analysis}
-
-- Conditional logit model for discrete choices: utility function depends on attributes of the choices
-$$
-\begin{aligned}
-P_{ij} = \frac{exp(X_{ij}\alpha)}{\sum_{k=1}^{J}exp(X_{ij}\alpha)}
-\end{aligned}
-$$
-- May consider doing this with mixed logit (IIA assumption may be violated)
 
 --- #Results1
 
@@ -121,7 +102,7 @@ $$
 >- 1. News source labels are an important cue for readers: consumers tend to ignore stories without labels
 >- 2. Fox label has the strongest impact on story selection: its strategy works
 
---- #Results21
+--- #Results2
 
 ## Results
 ### Evidence of selective exposure in news selection
@@ -133,7 +114,7 @@ grid.raster(img)
 ```
 #### Figure 1 Effects of story label on story selection
 
---- #Results22
+--- #Results3
 
 ## Results
 ### Evidence of selective exposure in news selection
@@ -146,7 +127,7 @@ grid.raster(img)
    - Results of Wald tests shows that the differences between Fox and the second-most selected source are significant for conservatives
    - Ideological divide is apparent even for the soft news
 
---- #Results3
+--- #Results4
 
 ## Results
 ### Are more involved partisans more selective?
