@@ -12,11 +12,6 @@ mode        : selfcontained        # {standalone, draft}
 knit        : slidify::knit2slides
 
 --- # Outline
-
-
-
---- #RQ
-
 <style>
 body {
   background-color: #000;
@@ -29,31 +24,29 @@ ul.nav li::before { content: ""; }
 ul.nav li{ font-size: 18px; line-height: 24px;}
 </style>
 
-## Research Questions
+>- 1. Polls could be inaccurate, so what?
+   - Cases of inaccurate polls... abundant!
+   - Why does accuracy matter?
+>- 2. Research questions and hypotheses
+   - Defining accuracy: errors and biases 
+   - Literature on the effects of poll characteristics on accuracy
+>- 3. Methods
+   - Data collection: 2 major rounds
+   - Analyses
+   - Results
+>- 4. Discussion 
 
->- 1. Are consumers of online news exercising selectivity in their news choices?
-   - The partisan polarization hypothesis: active selectivity and motivated exposure
-   - How strong is the tendency of the partisans to self-select into distinct audiences?
->- 2. Does the news content matter?
-   - Hard vs. soft news
-   - Is the effect of selectivity stronger for subjects where partisan divisions are intense?
->- 3. Doe attentiveness matter?
-   - The more attentive vs. the less attentive and the partisans vs. the nonpartisans
-   - Political interest$*$partisanship
+--- #SoWhat1
 
---- #Why1
+## Inaccurate polls... so what?
+### Just a few cases...
 
-## The "So What" Question
-
-So **why** should we care about answering these questions?
-
->- 1. Is the public polarized?
+>- 1. NYT: *How One 19-Year-Old Illinois Man Is Distorting National Polling Averages*
    - We already know that the elites/activists are polarized!
    - Does increased selectivity among news consumers reflect increased level of interparty animus?
->- 2. What are the implications of a changing media environment?
-   - From an overtly neutral to an increasingly diverse media environment: cable news and the Internet
-   - We already have evidences of media bias for mainstream media based on surveys, how about online news then?
-   - Does the Internet narrow users' political horizen: the echo chamber and the Daily Me?
+>- 2. 
+
+>- 3. 
 
 --- #Why2
 
@@ -65,6 +58,22 @@ So **why** should we care about answering these questions?
    - How does a polarized audience affect the media industry and its way of exercising journalism?
    - How does a polarized audience affect elite behavior and political campaigns?
 
+--- #RQ
+
+
+
+## Research Questions
+
+>- 1. Are consumers of online news exercising selectivity in their news choices?
+   - The partisan polarization hypothesis: active selectivity and motivated exposure
+   - How strong is the tendency of the partisans to self-select into distinct audiences?
+>- 2. Does the news content matter?
+   - Hard vs. soft news
+   - Is the effect of selectivity stronger for subjects where partisan divisions are intense?
+>- 3. Doe attentiveness matter?
+   - The more attentive vs. the less attentive and the partisans vs. the nonpartisans
+   - Political interest$*$partisanship
+   
 --- #Literature
 
 ## What is already known in the literature?
