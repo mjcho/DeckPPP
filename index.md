@@ -1,9 +1,9 @@
 ---
-title       : The Effect of Poll Characteristics on Accuracy
+title       : Assessing Accuracy of Pre-Election Polls
 subtitle    : 2008 - 2012
 author      : MJ Cho
 job         : PPRG Presentation
-logo        : stanford.gif
+logo        : logo.png
 framework   : io2012               # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js         # {highlight.js, prettify, highlight}
 hitheme     : tomorrow             # 
