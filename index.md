@@ -10,6 +10,11 @@ hitheme     : tomorrow             #
 widgets     : [mathjax, bootstrap, quiz] # {mathjax, quiz, bootstrap}
 mode        : selfcontained        # {standalone, draft}
 knit        : slidify::knit2slides
+
+--- # Outline
+
+
+
 --- #RQ
 
 <style>
@@ -122,11 +127,7 @@ $$
 ### Evidence of selective exposure in news selection
 
 ```
-## Error in library(png): there is no package called 'png'
-```
-
-```
-## Error in eval(expr, envir, enclos): could not find function "readPNG"
+## Error in readPNG("figure/fig1.png"): unable to open figure/fig1.png
 ```
 
 ```
