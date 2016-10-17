@@ -107,8 +107,8 @@ So **why** should we care about inaccurate polls?
 
 ## Methods
 ### Data Collection
->-1. Stage 1: Based on data from aggregate polling sites, collected the above main variables and other related poll and election characteristics. Sources include: FiveThirtyEight, Real Clear Politics, Pollster.com, FEC, and Secretary of State.
->-2. Stage 2: In addition to the macro-partisan variable (3-level factor) collected in stage 1, collected micro-level partisan variable such that each of the firms involved was evaluated.
+>- 1. Stage 1: Based on data from aggregate polling sites, collected the above main variables and other related poll and election characteristics. Sources include: FiveThirtyEight, Real Clear Politics, Pollster.com, FEC, and Secretary of State.
+>- 2. Stage 2: In addition to the macro-partisan variable (3-level factor) collected in stage 1, collected micro-level partisan variable such that each of the firms involved was evaluated.
    - Firm's role in the poll (designer, collector, sponsor, and publisher) based on online information and case studies.
    - Partisanship based on firms' websites, donation records, and case studies.
 
@@ -122,17 +122,17 @@ So **why** should we care about inaccurate polls?
 --- #Results2
 
 ## Results
-### Statistical Analyses
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-1.png)
+### Statistical Analyses: Average absolute error
+<img src="figure/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" />
 
 --- #Results3
 
 ## Results
-### Statistical Analyses
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4-1.png)
+### Statistical Analyses: Margin of victory error
+<img src="figure/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
 
 --- #Results4
 
 ## Results
-### Statistical Analyses
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png)
+### Statistical Analyses: Partisan bias
+<img src="figure/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" />
