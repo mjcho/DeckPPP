@@ -41,15 +41,30 @@ ul.nav li{ font-size: 18px; line-height: 24px;}
 --- #SoWhat1
 
 ## Inaccurate polls... so what?
+
+So **why** should we care about poll accuracy?
+
+>- 1. Predictable electoral outcomes is key to political and economic stability
+   - Business Insider: When elections are predictable, it helps society — investors, job seekers, employers, and retirees — plan for the future. The EU Referendum caused the pound and the FTSE 100 to both immediately collapse because no one was expecting Leave to win.
+>- 2. Polls inform voters: polls as a source of entertainment
+>- 3. Polls provide feedback to candidates and elected officials
+   - Altering positions and policies to accomodate what people want
+>- 4. Polls could affect actual election results
+   - Poll predictions provide strategic information for donors
+>- 5. All in all, accurate polls based on scientific methods better serve its social functions.
+
+--- #SoWhat2
+
+## Inaccurate polls... so what?
 ### Just a couple of cases...
 
 >- 1. Polls on referendum: The Brexit Case, fewer than a third of the 168 polls predicted a leave vote
    - CNBC: The inaccurate Brexit prediction is just one of multiple misses over recent years, including last year's U.K. general election, the Scottish referendum in 2014...
-   - Chris Hanretty (Monkey Cage): "vote for the status quo" effect is smaller in close referenda
+   - Chris Hanretty (Monkey Cage): "vote for the status quo" effect is smaller than expected in close referenda
    - Nate Cohn (The Upshot): referendum polls are often less accurate than general election polls, large numbers of undecided voters
-   - Anthony Wells (YouGov): hard-to-reach voters (3 vs. 6 days), under-educated people are under-represented, inaccurate attitude weights, reallocation of "don't knows".
+   - Anthony Wells (YouGov): hard-to-reach voters (3 vs. 6 days in the field), under-educated people are under-represented, inaccurate attitude weights, reallocation of "don't knows".
 
---- #SoWhat2
+--- #SoWhat3
 
 ## Inaccurate polls... so what?
 ```{r fig.width=16,fig.height=6,echo=FALSE}
@@ -63,19 +78,6 @@ grid.raster(img)
    - Weighting over too many categories leads to overcounting
    - Weighting based on past vote, which is very inaccurate
 
---- #SoWhat3
-
-## Inaccurate polls... so what?
-
-So **why** should we care about inaccurate polls?
-
->- 1. Predictable electoral outcomes is key to political and economic stability
-   - Business Insider: When elections are predictable, it helps society — investors, job seekers, employers, and retirees — plan for the future. The EU Referendum caused the pound and the FTSE 100 to both immediately collapse because no one was expecting Leave to win.
->- 2. Polls provide feedback to candidates and elected officials
-   - Altering positions and policies to accomodate what people want
->- 3. Polls could affect actual election results
-   - Donation vs. poll predictions
-
 --- #Lit1
 
 ## Literature and hypotheses
@@ -85,6 +87,10 @@ So **why** should we care about inaccurate polls?
 
 ### Sample size
 >- 1. Lohr (2010): The relationship between sample size and the margin of error of a survey is curvilinear.
+```{r fig.width=5,fig.height=5,fig.aligh='center',echo=FALSE}
+img <- readPNG("figures/size.png")
+grid.raster(img)
+```
 
 --- #Lit2
 
@@ -118,7 +124,7 @@ So **why** should we care about inaccurate polls?
    - Partisanship based on firms' websites, donation records, and case studies.
 
 
---- #Results1
+--- #Results1 (figures should be larger / animated)
 
 ## Results
 ### Descriptive Analyses
@@ -153,3 +159,8 @@ grid.raster(img)
 img <- readPNG("figures/pe.png")
 grid.raster(img)
 ```
+
+--- #Conclusion
+
+## Conclusion
+
