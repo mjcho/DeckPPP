@@ -41,35 +41,37 @@ ul.nav li{ font-size: 18px; line-height: 24px;}
 --- #SoWhat1
 
 ## Inaccurate polls... so what?
-### Just a couple of cases...
 
->- 1. Polls on referendum: The Brexit Case, fewer than a third of the 168 polls predicted a leave vote
-   - CNBC: The inaccurate Brexit prediction is just one of multiple misses over recent years, including last year's U.K. general election, the Scottish referendum in 2014...
-   - Chris Hanretty (Monkey Cage): "vote for the status quo" effect is smaller in close referenda
-   - Nate Cohn (The Upshot): referendum polls are often less accurate than general election polls, large numbers of undecided voters
-   - Anthony Wells (YouGov): hard-to-reach voters (3 vs. 6 days), under-educated people are under-represented, inaccurate attitude weights, reallocation of "don't knows".
+So **why** should we care about poll accuracy?
+
+>- 1. Predictable electoral outcomes is key to political and economic stability
+   - Business Insider: When elections are predictable, it helps society — investors, job seekers, employers, and retirees — plan for the future. The EU Referendum caused the pound and the FTSE 100 to both immediately collapse because no one was expecting Leave to win.
+>- 2. Polls inform voters: polls as a source of entertainment
+>- 3. Polls provide feedback to candidates and elected officials
+   - Altering positions and policies to accomodate what people want
+>- 4. Polls could affect actual election results
+   - Poll predictions provide strategic information for donors
+>- 5. All in all, accurate polls based on scientific methods better serve its social functions.
 
 --- #SoWhat2
 
 ## Inaccurate polls... so what?
-![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1-1.png)
->- 2. NYT: *How One 19-Year-Old Illinois Man Is Distorting National Polling Averages*
-   - Overweighted (sub-)sample and the use of past vote 
-   - Weighting over too many categories leads to overcounting
-   - Weighting based on past vote, which is very inaccurate
+### Just a couple of cases...
+
+>- 1. Polls on referendum: The Brexit Case, fewer than a third of the 168 polls predicted a leave vote
+   - CNBC: The inaccurate Brexit prediction is just one of multiple misses over recent years, including last year's U.K. general election, the Scottish referendum in 2014...
+   - Chris Hanretty (Monkey Cage): "vote for the status quo" effect is smaller than expected in close referenda
+   - Nate Cohn (The Upshot): referendum polls are often less accurate than general election polls, large numbers of undecided voters
+   - Anthony Wells (YouGov): hard-to-reach voters (3 vs. 6 days in the field), under-educated people are under-represented, inaccurate attitude weights, reallocation of "don't knows".
 
 --- #SoWhat3
 
 ## Inaccurate polls... so what?
-
-So **why** should we care about inaccurate polls?
-
->- 1. Predictable electoral outcomes is key to political and economic stability
-   - Business Insider: When elections are predictable, it helps society — investors, job seekers, employers, and retirees — plan for the future. The EU Referendum caused the pound and the FTSE 100 to both immediately collapse because no one was expecting Leave to win.
->- 2. Polls provide feedback to candidates and elected officials
-   - Altering positions and policies to accomodate what people want
->- 3. Polls could affect actual election results
-   - Donation vs. poll predictions
+![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png)
+>- 2. NYT: *How One 19-Year-Old Illinois Man Is Distorting National Polling Averages*
+   - Overweighted (sub-)sample and the use of past vote 
+   - Weighting over too many categories leads to overcounting
+   - Weighting based on past vote, which is very inaccurate
 
 --- #Lit1
 
@@ -80,6 +82,7 @@ So **why** should we care about inaccurate polls?
 
 ### Sample size
 >- 1. Lohr (2010): The relationship between sample size and the margin of error of a survey is curvilinear.
+![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2-1.png)
 
 --- #Lit2
 
@@ -113,26 +116,31 @@ So **why** should we care about inaccurate polls?
    - Partisanship based on firms' websites, donation records, and case studies.
 
 
---- #Results1
+--- #Results1 (figures should be larger / animated)
 
 ## Results
 ### Descriptive Analyses
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png)
+![plot of chunk unnamed-chunk-3](assets/fig/unnamed-chunk-3-1.png)
 
 --- #Results2
 
 ## Results
 ### Statistical Analyses: Average absolute error
-<img src="figure/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" />
+<img src="assets/fig/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
 
 --- #Results3
 
 ## Results
 ### Statistical Analyses: Margin of victory error
-<img src="figure/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
+<img src="assets/fig/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" />
 
 --- #Results4
 
 ## Results
 ### Statistical Analyses: Partisan bias
-<img src="figure/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" />
+<img src="assets/fig/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;" />
+
+--- #Conclusion
+
+## Conclusion
+
