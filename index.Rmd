@@ -78,16 +78,17 @@ grid.raster(img)
    - Weighting over too many categories leads to overcounting
    - Weighting based on past vote, which is very inaccurate
 
---- #Lit1
+--- #Lit1a
 
 ## Literature and hypotheses
 ### Mode and Accuracy
 >- 1. Chang and Krosnick (2009): Internet data collection from a probability sample yields more accurate results than telephone interviewing and Internet data collection from nonprobability samples.
 >- 2. Yeager et al. (2011): mode effects (telephone vs. internet and probability vs. non-probability) on accuracy.
 
+--- #Lit1b
 ### Sample size
 >- 1. Lohr (2010): The relationship between sample size and the margin of error of a survey is curvilinear.
-```{r fig.width=5,fig.height=5,fig.aligh='center',echo=FALSE}
+```{r fig.width=6,fig.height=6,fig.align='center',echo=FALSE}
 img <- readPNG("figures/size.png")
 grid.raster(img)
 ```
@@ -96,13 +97,13 @@ grid.raster(img)
 
 ## Literature and hypotheses
 ### Office of the Election
->- 1. Pasek et al. (2014): The primacy effect of informed decision based on non-arbitrary factors
+>- 1. Pasek et al. (2014): The primacy effect is smaller for high-visibility races but voters are generally more informed about presidential elections.
 
 ### Election year
->- 1. Silver and Krosnick (2014): Polls on referenda during presidential election years are less accurate
+>- 1. Silver and Krosnick (2014): Polls on referenda during presidential election years are less accurate.
 
 ### Partisanship
->- 1. Franklin (2014): Polls conducted by partisan sources overestimate support for the candidate they support
+>- 1. Franklin (2014): Polls conducted by partisan sources overestimate support for the candidate they support by 2.9% on average.
 
 --- #Methods1
 
@@ -124,43 +125,88 @@ grid.raster(img)
    - Partisanship based on firms' websites, donation records, and case studies.
 
 
---- #Results1 (figures should be larger / animated)
+--- #Results1a
 
 ## Results
 ### Descriptive Analyses
-```{r fig.width=16,fig.height=6,echo=FALSE}
-img <- readPNG("figures/des.png")
+```{r fig.width=16,fig.height=14,echo=FALSE}
+img <- readPNG("figures/des1.png")
 grid.raster(img)
 ```
 
---- #Results2
+--- #Results1b
+
+## Results
+### Descriptive Analyses
+```{r fig.width=16,fig.height=14,echo=FALSE}
+img <- readPNG("figures/des2.png")
+grid.raster(img)
+```
+
+
+--- #Results2a
 
 ## Results
 ### Statistical Analyses: Average absolute error
 ```{r fig.width=7,fig.height=7,fig.align='center',echo=FALSE}
-img <- readPNG("figures/ae.png")
+img <- readPNG("figures/ae1.png")
 grid.raster(img)
 ```
 
---- #Results3
+--- #Results2b
+
+## Results
+### Statistical Analyses: Average absolute error (cont.)
+```{r fig.width=7,fig.height=7,fig.align='center',echo=FALSE}
+img <- readPNG("figures/ae2.png")
+grid.raster(img)
+```
+
+--- #Results3a
 
 ## Results
 ### Statistical Analyses: Margin of victory error
 ```{r fig.width=7,fig.height=7,fig.align='center',echo=FALSE}
-img <- readPNG("figures/mov.png")
+img <- readPNG("figures/mov1.png")
 grid.raster(img)
 ```
 
---- #Results4
+--- #Results3b
+
+## Results
+### Statistical Analyses: Margin of victory error (cont.)
+```{r fig.width=7,fig.height=7,fig.align='center',echo=FALSE}
+img <- readPNG("figures/mov2.png")
+grid.raster(img)
+```
+
+
+--- #Results4a
 
 ## Results
 ### Statistical Analyses: Partisan bias
 ```{r fig.width=7,fig.height=7,fig.align='center',echo=FALSE}
-img <- readPNG("figures/pe.png")
+img <- readPNG("figures/pe1.png")
+grid.raster(img)
+```
+
+--- #Results4b
+
+## Results
+### Statistical Analyses: Partisan bias (cont.)
+```{r fig.width=7,fig.height=7,fig.align='center',echo=FALSE}
+img <- readPNG("figures/pe2.png")
 grid.raster(img)
 ```
 
 --- #Conclusion
 
 ## Conclusion
+>- 1. Some hypotheses were supported...
+   - Most of the election type and mode independent variables, the registered voter variable, the days in field variable, the sample size.
+   - Accuracy variables yield different results.
+>- 2. Partisanship and partisan bias
+   - The hypothesis was also supported.
+   - Is there a better way to quantify partisan bias?
+
 

@@ -67,34 +67,35 @@ So **why** should we care about poll accuracy?
 --- #SoWhat3
 
 ## Inaccurate polls... so what?
-![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png)
+![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1-1.png)
 >- 2. NYT: *How One 19-Year-Old Illinois Man Is Distorting National Polling Averages*
    - Overweighted (sub-)sample and the use of past vote 
    - Weighting over too many categories leads to overcounting
    - Weighting based on past vote, which is very inaccurate
 
---- #Lit1
+--- #Lit1a
 
 ## Literature and hypotheses
 ### Mode and Accuracy
 >- 1. Chang and Krosnick (2009): Internet data collection from a probability sample yields more accurate results than telephone interviewing and Internet data collection from nonprobability samples.
 >- 2. Yeager et al. (2011): mode effects (telephone vs. internet and probability vs. non-probability) on accuracy.
 
+--- #Lit1b
 ### Sample size
 >- 1. Lohr (2010): The relationship between sample size and the margin of error of a survey is curvilinear.
-![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2-1.png)
+<img src="figure/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
 
 --- #Lit2
 
 ## Literature and hypotheses
 ### Office of the Election
->- 1. Pasek et al. (2014): The primacy effect of informed decision based on non-arbitrary factors
+>- 1. Pasek et al. (2014): The primacy effect is smaller for high-visibility races but voters are generally more informed about presidential elections.
 
 ### Election year
->- 1. Silver and Krosnick (2014): Polls on referenda during presidential election years are less accurate
+>- 1. Silver and Krosnick (2014): Polls on referenda during presidential election years are less accurate.
 
 ### Partisanship
->- 1. Franklin (2014): Polls conducted by partisan sources overestimate support for the candidate they support
+>- 1. Franklin (2014): Polls conducted by partisan sources overestimate support for the candidate they support by 2.9% on average.
 
 --- #Methods1
 
@@ -116,31 +117,64 @@ So **why** should we care about poll accuracy?
    - Partisanship based on firms' websites, donation records, and case studies.
 
 
---- #Results1 (figures should be larger / animated)
+--- #Results1a
 
 ## Results
 ### Descriptive Analyses
-![plot of chunk unnamed-chunk-3](assets/fig/unnamed-chunk-3-1.png)
+![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-1.png)
 
---- #Results2
+--- #Results1b
+
+## Results
+### Descriptive Analyses
+![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4-1.png)
+
+
+--- #Results2a
 
 ## Results
 ### Statistical Analyses: Average absolute error
-<img src="assets/fig/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
+<img src="figure/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" />
 
---- #Results3
+--- #Results2b
+
+## Results
+### Statistical Analyses: Average absolute error (cont.)
+<img src="figure/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;" />
+
+--- #Results3a
 
 ## Results
 ### Statistical Analyses: Margin of victory error
-<img src="assets/fig/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" />
+<img src="figure/unnamed-chunk-7-1.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" style="display: block; margin: auto;" />
 
---- #Results4
+--- #Results3b
+
+## Results
+### Statistical Analyses: Margin of victory error (cont.)
+<img src="figure/unnamed-chunk-8-1.png" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" style="display: block; margin: auto;" />
+
+
+--- #Results4a
 
 ## Results
 ### Statistical Analyses: Partisan bias
-<img src="assets/fig/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;" />
+<img src="figure/unnamed-chunk-9-1.png" title="plot of chunk unnamed-chunk-9" alt="plot of chunk unnamed-chunk-9" style="display: block; margin: auto;" />
+
+--- #Results4b
+
+## Results
+### Statistical Analyses: Partisan bias (cont.)
+<img src="figure/unnamed-chunk-10-1.png" title="plot of chunk unnamed-chunk-10" alt="plot of chunk unnamed-chunk-10" style="display: block; margin: auto;" />
 
 --- #Conclusion
 
 ## Conclusion
+>- 1. Some hypotheses were supported...
+   - Most of the election type and mode independent variables, the registered voter variable, the days in field variable, the sample size.
+   - Accuracy variables yield different results.
+>- 2. Partisanship and partisan bias
+   - The hypothesis was also supported.
+   - Is there a better way to quantify partisan bias?
+
 
